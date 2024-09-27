@@ -1,0 +1,46 @@
+<style>
+
+<!--
+
+.title_index{ /*大标题样式*/
+	font-size: 18pt;
+	font-family: "黑体";
+	color: #000000;
+	font-weight: bold;
+}
+.title_page{ /*题目样式*/
+	font-size: 12pt;
+	font-family: "黑体";
+	color: #000000;
+	font-weight: bold;
+}
+.content{/*内容样式*/
+	font-size: 12pt;
+	font-family: "宋体";
+	line-height: 16pt;	/*行距*/	
+}
+.content img {
+	margin: 7px;
+}
+.9{ font-size: 9pt }
+.TitleLinks{ /*索引列表的停靠方位*/
+	text-align: center;
+}
+.TitleLinks .content { /*索引页使用文字列表符时，修改行距*/
+	line-height: 20pt;
+}
+.TitleLinks .content img { /*索引页使用图形列表符时，修改行距*/
+	margin-top: 7px;
+	margin-bottom: 7px;	
+}
+A:link	{text-decoration: none; color:#000000}        /*有超链接的颜色*/ 
+A:visited  {text-decoration: none; color: #000000}    /*访问过的超链接颜色*/
+A:active {text-decoration: none; color: #000000}      /*鼠标移上去的颜色*/
+A:hover {text-decoration: none; color: #000000 }      /*鼠标点击时的颜色*/
+-->
+body {font-family: "宋体"; font-size: medium; line-height:22pt; color: #77396C}
+a {font-family: "宋体"; font-size: medium; line-height:22pt; text-decoration: none; color: #800000}
+a:hover {font-family: "宋体"; font-size: medium; line-height:22pt; text-decoration: underline}
+td {font-family: "宋体"; font-size: medium; line-height:22pt;  color: #000000}
+.h {font-family: "宋体"; font-size: large; line-height:24pt; font-weight: bold; color: #000000}
+</style>
